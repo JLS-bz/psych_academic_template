@@ -12,16 +12,12 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 
 #Formatting
 fontsize: 12pt
+spacing: double
 geometry: [a4paper, margin=1in]
 linestretch: 1.5
 mainfont: "Times New Roman"
 header-includes: 
   - \usepackage{fancyhdr}
   - \pagestyle{fancy}
-  - \fancyhead[]
-  
-  \fancyfoot{} % clear all footer fields
-
-#Bibliography
-
+  - \fancyhead["head"]
 ---
